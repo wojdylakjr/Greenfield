@@ -1,0 +1,93 @@
+Robot/RobotCoordinates.java
+ Robot.RobotCoordinates
+GRPC/RobotMechanicVisitState.java
+ GRPC.RobotMechanicVisitState
+Server/beans/SensorMeasurementsList.java
+ Server.beans.SensorMeasurementsList
+Server/beans/DistrictsOccupancy.java
+ Server.beans.DistrictsOccupancy
+Client/Main.java
+ Client.Main
+MQTT/MQTTClient.java
+ MQTT.MQTTClient
+Simulators/Simulator.java
+ Simulators.Simulator
+MQTT/MQTTSubscriber.java
+ MQTT.MQTTSubscriber
+ MQTT.MQTTSubscriber$1
+Simulators/ListBuffer.java
+ Simulators.ListBuffer
+com/example/chat/RobotServiceOuterClass.java
+ com.example.chat.RobotServiceOuterClass
+ com.example.chat.RobotServiceOuterClass$1
+ com.example.chat.RobotServiceOuterClass$Robot
+ com.example.chat.RobotServiceOuterClass$Robot$1
+ com.example.chat.RobotServiceOuterClass$Robot$Builder
+ com.example.chat.RobotServiceOuterClass$RobotOrBuilder
+ com.example.chat.RobotServiceOuterClass$RobotRequest
+ com.example.chat.RobotServiceOuterClass$RobotRequest$1
+ com.example.chat.RobotServiceOuterClass$RobotRequest$Builder
+ com.example.chat.RobotServiceOuterClass$RobotRequestOrBuilder
+ com.example.chat.RobotServiceOuterClass$RobotResponse
+ com.example.chat.RobotServiceOuterClass$RobotResponse$1
+ com.example.chat.RobotServiceOuterClass$RobotResponse$Builder
+ com.example.chat.RobotServiceOuterClass$RobotResponseOrBuilder
+Server/StartServer.java
+ Server.StartServer
+Simulators/PM10Simulator.java
+ Simulators.PM10Simulator
+GRPC/RobotMechanicManager.java
+ GRPC.RobotMechanicManager
+Simulators/Measurement.java
+ Simulators.Measurement
+MQTT/SensorMessage.java
+ MQTT.SensorMessage
+Robot2.java
+ Robot2
+Server/beans/AddRobotResponse.java
+ Server.beans.AddRobotResponse
+com/example/chat/RobotServiceGrpc.java
+ com.example.chat.RobotServiceGrpc
+ com.example.chat.RobotServiceGrpc$1
+ com.example.chat.RobotServiceGrpc$MethodHandlers
+ com.example.chat.RobotServiceGrpc$RobotServiceBaseDescriptorSupplier
+ com.example.chat.RobotServiceGrpc$RobotServiceBlockingStub
+ com.example.chat.RobotServiceGrpc$RobotServiceFileDescriptorSupplier
+ com.example.chat.RobotServiceGrpc$RobotServiceFutureStub
+ com.example.chat.RobotServiceGrpc$RobotServiceImplBase
+ com.example.chat.RobotServiceGrpc$RobotServiceMethodDescriptorSupplier
+ com.example.chat.RobotServiceGrpc$RobotServiceStub
+Simulators/Buffer.java
+ Simulators.Buffer
+Robot/District.java
+ Robot.District
+GRPC/Server.java
+ GRPC.Server
+GRPC/RobotServiceImpl.java
+ GRPC.RobotServiceImpl
+ GRPC.RobotServiceImpl$1
+GRPC/RobotsPeers.java
+ GRPC.RobotsPeers
+Server/beans/Robots.java
+ Server.beans.Robots
+Client/HTTPClient.java
+ Client.HTTPClient
+Robot4.java
+ Robot4
+GRPC/Client.java
+ GRPC.Client
+ GRPC.Client$1
+ GRPC.Client$2
+ GRPC.Client$3
+Robot1.java
+ Robot1
+CLI/CommandLineManager.java
+ CLI.CommandLineManager
+Robot3.java
+ Robot3
+Robot/CleaningRobot.java
+ Robot.CleaningRobot
+MQTT/MQTTPublisher.java
+ MQTT.MQTTPublisher
+Server/RobotsService.java
+ Server.RobotsService

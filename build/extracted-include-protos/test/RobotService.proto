@@ -1,0 +1,28 @@
+syntax = "proto3";
+package com.example.chat;
+
+message RobotRequest {
+  int32 senderId = 1;
+  string message = 2;
+  int64 timestamp = 3;
+}
+
+message RobotResponse {
+  int32 senderId = 1;
+  string message = 2;
+  int64 timestamp = 3;
+}
+
+message Robot {
+  int32 robotId = 1;
+  int32 listeningPort = 2;
+  int32 xCoordinate = 3;
+  int32 yCoordinate = 4;
+}
+
+service RobotService {
+  rpc  askForPermissionToVisitMechanic(RobotRequest) returns (RobotResponse);
+  rpc registerRobotInNetwork(Robot) returns (RobotResponse);
+  rpc finishMechanicVisit(RobotRequest) returns (RobotResponse);
+  rpc notifyAllRobotsToLeaveNetwork(RobotRequest) returns (RobotResponse);
+}
