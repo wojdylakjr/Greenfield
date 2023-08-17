@@ -1,20 +1,13 @@
-# Project Setup
+Greenfield 
+Project for designing a distributed and pervasive system for management of cleaning robots in the smart city of Greenfield. These robots are tasked with cleaning the streets across four districts in the city. The project aims to create a system that handles robot registration, monitors air pollution levels, coordinates maintenance activities, and provides pollution statistics to the city's environmental department.
 
-* You can import the project directly from a *Version Control System*, by providing the following URL: 
-*https://ewserver.di.unimi.it/gitlab/luca.arrotta/project_setup.git*
+Parts of application:
 
-<img src = './assets/img_1.png'>
+MQTT Broker: This component manages the communication infrastructure between the cleaning robots and the central system. It enables the robots to periodically transmit air pollution measurements to the Administrator Server via MQTT protocol.
 
-* Otherwise, take care to import the project as a Gradle Project
+Cleaning Robot: The cleaning robot application simulates individual cleaning robots in Greenfield. Each robot is equipped with a pollution sensor that gathers air pollution measurements. These measurements are periodically sent to the Administrator Server through the MQTT Broker. The robots also coordinate maintenance activities among themselves using gRPC communication and a distributed Ricart-Agrawala mutual exclusion algorithm.
 
-* If required, trust the project and accept the Gradle auto-import
+Administrator Server: The Administrator Server is responsible for various tasks. It dynamically manages the registration and removal of cleaning robots from the network. The server collects air pollution measurements transmitted by the robots through the MQTT Broker. It processes and stores these measurements for further analysis. Additionally, the Administrator Server computes pollution statistics and offers REST interfaces for managing the robot network.
 
-* Wait until the Gradle indexing process ends (it may take a few seconds)
-
-
-
-## ENJOY THE PROJECT!
-
-<img src = './assets/meme.jpg' width="350" height="500">
-
+Administrator Client: This application provides a command-line interface for administrators to interact with the Administrator Server. Administrators can request various services, such as obtaining a list of cleaning robots currently active in Greenfield or querying pollution statistics. The Administrator Client acts as a user-friendly interface to access and utilize the information collected and processed by the Administrator Server.
 
