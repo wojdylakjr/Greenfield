@@ -1,4 +1,5 @@
-Greenfield 
+Greenfield
+
 Project for designing a distributed and pervasive system for management of cleaning robots in the smart city of Greenfield. These robots are tasked with cleaning the streets across four districts in the city. The project aims to create a system that handles robot registration, monitors air pollution levels, coordinates maintenance activities, and provides pollution statistics to the city's environmental department.
 
 Parts of application:
